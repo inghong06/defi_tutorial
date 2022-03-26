@@ -1,1 +1,41 @@
-/* Styles go here */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+  body,
+  html {
+    background: #ffffff;
+    height: 100vh;
+  }
+
+.app {
+    
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.reward-token {
+  margin-top:5rem;
+  margin-bottom:5rem;
+}
+
+.button-set {
+  display: flex;
+  justify-content: center;
+  margin-left:1rem;
+  margin-right: 1rem;
+}
+
+.button {
+  padding:1rem;
+  /* margin-left:1rem; */
+}
